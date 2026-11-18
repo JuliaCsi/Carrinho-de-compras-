@@ -1,0 +1,120 @@
+/* Configuração geral da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f0ff;
+    margin: 0;
+    padding: 40px 20px;
+    color: #333333;
+}
+
+/* Cartão principal */
+.container {
+    background-color: white;
+    max-width: 500px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    color: #6c4ab6;
+    margin-bottom: 30px;
+}
+
+/* Título da lista */
+h2 {
+    color: #6c4ab6;
+    margin-top: 30px;
+}
+
+/* Textos dos campos */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+/* Campos de entrada */
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+/* Efeito ao clicar nos campos */
+input:focus {
+    outline: none;
+    border-color: #8b68d8;
+    box-shadow: 0 0 5px rgba(139, 104, 216, 0.3);
+}
+
+/* Botão */
+button {
+    width: 100%;
+    padding: 13px;
+    background-color: #7c55c7;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Efeito quando passa o mouse */
+button:hover {
+    background-color: #6240a5;
+}
+
+/* Lista de produtos */
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+/* Cada produto */
+li {
+    background-color: #f7f4ff;
+    padding: 13px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border-left: 4px solid #8b68d8;
+}
+
+/* Área do total */
+.total-container {
+    background-color: #eee7ff;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Valor total */
+#total {
+    color: #5e3ca3;
+    text-align: right;
+    margin: 0;
+    font-size: 20px;
+}
+
+/* Ajuste para telas menores */
+@media (max-width: 600px) {
+
+    body {
+        padding: 20px 10px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+}
